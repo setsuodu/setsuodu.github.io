@@ -4,9 +4,9 @@ menu:
   Index:
     url: /
     icon: fas fa-home
-  Tags:
-    url: /tags
-    icon: fas fa-tags
+  #Tags:
+  #  url: /tags
+  #  icon: fas fa-tags
   Categories:
     url: /categories
     icon: fas fa-bookmark
@@ -16,9 +16,9 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
+  #Contact:
+  #  url: /contact
+  #  icon: fas fa-comments
   #Friends:
   #  url: /friends
   #  icon: fas fa-address-book
@@ -379,8 +379,8 @@ changyan:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  enable: false
+  url: https://github.com/setsuodu
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -397,9 +397,9 @@ verifyPassword:
 # busuanzi(http://busuanzi.ibruce.info/) website statistics
 # 不蒜子(http://busuanzi.ibruce.info/) 网站统计
 busuanziStatistics:
-  enable: true
-  totalTraffic: true # 总访问量
-  totalNumberOfvisitors: true # 总人次
+  enable: false
+  totalTraffic: false # 总访问量
+  totalNumberOfvisitors: false # 总人次
 
 # Add google analytics configuration
 # 添加 Google Analytics 配置
@@ -585,7 +585,7 @@ banner:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
+  enable: true
   url: # 备案链接
   text: # 备案信息
 
